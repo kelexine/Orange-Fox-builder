@@ -1,8 +1,6 @@
 # Build Recovery using Github Actions
 
-- Support OrangeFox, [TWRP](https://github.com/azwhikaru/TWRP-Builder) is here
-- [中文说明](./README_CN.md)
-
+- Support OrangeFox, [TWRP](https://github.com/kelexine/TWRP-Builder) is here
 ---
 
 ## Thanks to
@@ -23,21 +21,21 @@
 | Name | Description | Example |
 | ------------ | -------------------- | ------------ |
 | `SYNC_URL` | Script specified by OrangeFox | https://gitlab.com/OrangeFox/sync.git |
-| `MANIFEST_BRANCH` | Source branch | 12.1                                                         |
-| `DEVICE_TREE_URL` | Device address | https://github.com/OrangeFoxRecovery/device_xiaomi_laurel_sprout |
-| `DEVICE_TREE_BRANCH` | Device branch | fox_12.1 |
-| `DEVICE_PATH` | Device location | device/xiaomi/laurel_sprout |
+| `MANIFEST_BRANCH` | Source branch | 11.0                                                         |
+| `DEVICE_TREE_URL` | Device address | https://github.com/kelexine/ofox_device_tecno_kelly |
+| `DEVICE_TREE_BRANCH` | Device branch | ofox-11 |
+| `DEVICE_PATH` | Device location | device/tecno/kelly |
 | `COMMON_TREE_URL` | Common tree address |  |
 | `COMMON_PATH` | Common tree location |  |
-| `DEVICE_NAME` | Model name | laurel_sprout |
-| `MAKEFILE_NAME` | Makefile name | twrp_laurel_sprout |
+| `DEVICE_NAME` | Model name | kelly |
+| `MAKEFILE_NAME` | Makefile name | twrp_kelly |
 | `BUILD_TARGET` | Build Target Partition (boot/recovery/vendorboot) | recovery |
 
 -----
 
 ## How to use
 ```
-For example, your username is: JohnSmith
+For example, your username is: kelexine
 ```
 #### 1. Click 'Fork' in the upper right corner of this repository
 ![image](https://user-images.githubusercontent.com/37921907/177914706-c92476c5-7e14-4fb3-be94-0c8a11dae874.png)
